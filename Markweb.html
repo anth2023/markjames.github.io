@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  background-color: gray;
+  color: white;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+h1{
+  font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, #f32170,
+                    #ff6b08, white, #eedd44);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+h2{
+  font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, #f32170,
+                    #ff6b08, white, #eedd44);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+#say{
+  text-align: center;
+  font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, #f32170,
+                    #ff6b08, white, #eedd44);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+footer{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="MarkWEB.html">Home</a>
+  <a href="aboutmj.html">About</a>
+  <a href="gallerymj.html">Gallery</a>
+  <a href="contactmj.html">Contact</a>
+</div>
+
+<h1 style="text-align: center;">Philippine College of Northwestern Luzon</h1>
+<p id="say"><i>"An Investment in Knowledge, Pays the Best Interest"</i></p>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "200px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<br>
+<h2 style="text-align: center;">Vision</h2>
+   <p style="text-align: center;">To be a distinctive learning institution acknowledge far and wide for its innovative and flexible approaches in working with its students, stakeholders and the community to create a more just and human society and more sustainable economy.</p>
+   <br>
+   <br>
+   <h2 style="text-align: center;">Mission</h2>
+   <p style="text-align: center;">In support of its philosophy, PCNL mandates itself to provide advanced quality instruction to its clientele in education, the arts and humanities, the sciences, technology, business and other related professional and technical fields; promote the advancement of knowledge through research; and help improve the quality of community life through extension work.</p>
+   <br><br>
+   <h2 style="text-align: center;">Philosophy</h2>
+   <br>
+   <p style="text-align: center;">PCNL believes in and advocates the development of man's vast potentials which, given the appropriate quality educa- tion and provided with a stimulating and nurturant environment, shall make him emerge as a self-actualized, fully productive and responsible member of society.</p>
+   <br>
+  </div>
+  <footer>
+    ALL RIGHT RESERVED Mark James Milo
+</footer>
+</body>
+</html> 
